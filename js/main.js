@@ -119,8 +119,8 @@ $(document).ready(function(){
     // Slider Height
     var slideHeight = $(window).height();
     //decrease slider height by 20 %
-    //var decreaseHeight=slideHeight*(0.4);
-   // slideHeight=slideHeight-decreaseHeight;
+    var decreaseHeight=slideHeight*(0.4);
+   slideHeight=slideHeight-decreaseHeight;
     $('#home-slider, #slider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
 
     $(window).resize(function(){'use strict',
